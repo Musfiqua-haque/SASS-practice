@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: red;
+}
+
+nav {
+  margin-top: 20px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: black;
+}
+
+main {
+  background: orange;
+}
+
+footer {
+  background: yellow;
+}
+
+#story {
+  font-size: 20px;
+}/*# sourceMappingURL=demo.css.map */

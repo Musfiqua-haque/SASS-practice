@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// color variable declearation
+
+$header-bgcolor: red;
+$main-bgcolor: orange;
+$footer-bgcolor:yellow;
+
+$para-font: 20px;
+
+header{
+    background: $header-bgcolor ;
+}
+
+// nav styling
+nav {
+    margin-top: 20px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            a{
+                display: inline-block;
+                color: blue;
+                text-decoration: none;
+                padding: 10px;
+                transition: .4s;
+                border-radius: 5px;
+            }
+            a:hover{
+                background-color: black;
+            }
+        }
+    }
+}
+
+
+
+
+
+main{
+    background: $main-bgcolor;
+}
+
+footer{
+    background: $footer-bgcolor;
+}
+
+#story {
+    font-size: $para-font;
+}
